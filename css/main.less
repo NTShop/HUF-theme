@@ -57,6 +57,11 @@
        -moz-box-shadow:0px 1px 4px rgba(0,0,0,0.4);
             box-shadow:0px 1px 4px rgba(0,0,0,0.4);
 }
+.dropshadowhover {
+    -webkit-box-shadow:0px 0px 7px rgba(0,0,0,0.8);
+       -moz-box-shadow:0px 0px 7px rgba(0,0,0,0.8);
+            box-shadow:0px 0px 7px rgba(0,0,0,0.8);
+}
 .mediadropshadow {
     -webkit-box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
        -moz-box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
@@ -200,7 +205,7 @@ p {
     line-height:1.4em;
 }
 a {
-    -webkit-transition: all 0.2s linear;
+    -webkit-transition: all 0.1s linear;
     color:#1C3F95;
 }
 a:hover {
@@ -562,6 +567,9 @@ Module
         .dropshadow;
         margin-bottom: 5px;
     }
+    img:hover {
+        .dropshadowhover;
+    }
     h4 {
         font-family:'VegurBold', sans-serif;
         font-size:1em;
@@ -642,7 +650,7 @@ State
     .dropshadow;
     padding: 5px 13px;
 }
-.view-all:hover {color:white;}
+.view-all:hover {color:white;.dropshadowhover;}
 
     section.section-divider.level-1 {
         h2 {.blue-text;}
