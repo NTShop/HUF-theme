@@ -106,7 +106,9 @@ p.asset-meta{font-size:13px;margin-top:10px;text-align:right;}
 .flex-video{padding-top:0;}
 .audiojs{width:100%;-webkit-box-shadow:0px 1px 8px rgba(0, 0, 0, 0.5);-moz-box-shadow:0px 1px 8px rgba(0, 0, 0, 0.5);-o-box-shadow:0px 1px 8px rgba(0, 0, 0, 0.5);box-shadow:0px 1px 8px rgba(0, 0, 0, 0.5);}
 .audiojs .scrubber{width:73%;}
-.asset-preview{float:left;width:30%;margin:0 1.7%;}.asset-preview img{width:100%;-webkit-box-shadow:0px 1px 4px rgba(0, 0, 0, 0.4);-moz-box-shadow:0px 1px 4px rgba(0, 0, 0, 0.4);box-shadow:0px 1px 4px rgba(0, 0, 0, 0.4);}
+.asset-preview{float:left;width:30%;margin:0 1.7% 10px 1.7%;}.asset-preview img{width:100%;-webkit-box-shadow:0px 1px 4px rgba(0, 0, 0, 0.4);-moz-box-shadow:0px 1px 4px rgba(0, 0, 0, 0.4);box-shadow:0px 1px 4px rgba(0, 0, 0, 0.4);margin-bottom:5px;}
+.asset-preview h4{font-family:'VegurBold',sans-serif;font-size:1em;margin:0;}
+.asset-preview time{text-transform:uppercase;font-size:.8em;}
 .type-huf_asset header{border-bottom:solid #e4dfda 1px;box-shadow:0px 1px 0px #FFF;padding-bottom:30px;margin-bottom:30px;position:relative;padding-bottom:0;position:relative;}
 .type-huf_asset h1.entry-title{margin-bottom:10px;width:60%;}
 .type-huf_asset time{position:absolute;bottom:0;right:0;}
